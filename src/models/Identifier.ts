@@ -5,6 +5,7 @@ import {
   PrimaryGeneratedColumn,
 } from 'typeorm';
 
+//@Entity('University')
 export default class Identifier {
   @PrimaryGeneratedColumn('uuid')
   id: string;
