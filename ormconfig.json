@@ -7,14 +7,15 @@
   "database": "aulatype",
   "entities": [
     "src/models/**/*.ts"
- ],
- "migrations": [
-  "src/migrations/**/*.ts"
-],
- "cli":{
-  "migrationsDir": [
-    "src/migrations/"
   ],
-  "entitiesDir": "src/models"
+  "migrations": [
+    "src/migrations/**/*.ts"
+  ],
+  "cli": {
+    "migrationsDir": [
+      "src/migrations/",
+      "src/models"
+    ],
+    "entitiesDir": "src/models"
   }
 }
